@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FHICT Companion App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Hello Home Fragment</string>
+    <string name="hello_grade_fragment">Hello Grade Fragment</string>
+    <string name="hello_schedule_fragment">Hello Schedule Fragment</string>
+
+    <string name="fontys_deetails">FHICT Companion App is an application to support fontys student in the field
+        of study in Fontys University.</string>
+    <string name="location">Location:</string>
+    <string name="original_articel"><![CDATA[Original Articel >]]></string>
+    <string name="fontys_hogescholen">Fontys Hogescholen</string>
+    <string name="fhict_companion_app">FHICT Companion App</string>
+</resources>

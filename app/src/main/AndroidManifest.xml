@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.android.larasw.fhictcompanionapp">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-sdk tools:overrideLibrary="com.thoughtbot.expandablerecyclerview"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/fontys_logo_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_fontys_logo_circle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".StartActivity"></activity>
+
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".ScheduleListActivity"></activity>
+        <activity android:name=".NewsActivity"></activity>
+    </application>
+
+</manifest>

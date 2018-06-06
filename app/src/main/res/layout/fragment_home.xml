@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.android.larasw.fhictcompanionapp.HomeFragment"
+             android:id="@+id/fragment_home"
+    android:orientation="vertical"
+    android:padding="16sp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fontys"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fontys_hogescholen"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fhict_companion_app"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fontys_deetails"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="5sp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fontysMap"
+        android:text="aaaa"
+        android:src="@drawable/gps_red_edit1"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:paddingLeft="250sp"
+        android:background="@color/yellowish"
+        android:paddingTop="10sp"
+        android:paddingRight="10sp"
+        android:paddingBottom="10sp"/>
+
+</LinearLayout>
